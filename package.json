@@ -1,0 +1,21 @@
+{
+  "name": "tap-chain",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "ts-mocha -p ./tsconfig.json -t 300000 tests/web3js/*.test.ts"
+  },
+  "dependencies": {
+    "@magicblock-labs/ephemeral-rollups-sdk": "0.6.5",
+    "@solana/web3.js": "^1.98.2",
+    "borsh": "0.7.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "mocha": "^10.0.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
